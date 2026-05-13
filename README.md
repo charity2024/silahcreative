@@ -1,93 +1,90 @@
 # SilahCreative
 A path to Creative Development
-<img width="700" height="700" alt="download (2)" src="https://github.com/user-attachments/assets/adbc7efb-b8c4-43b1-86fe-61864fbaeb4e" />
+# Creative Dev Journey 🚀✨
+
+![Banner](https://via.placeholder.com/1200x400?text=Creative+Developer+Journey) <!-- Replace with a nice banner -->
 
 ## About This Repository
 
-This repository documents my **Creative Developer** journey following the official "Creative Dev" path from the Modern Programmer Roadmap.
+This repository showcases my journey as a **Creative Developer** — following the "Creative Dev" path on the Modern Programmer Roadmap.
 
-I focus on building beautiful, interactive, and immersive web experiences by combining solid coding foundations with motion design, 3D, and creative coding.
+I combine strong technical foundations (HTML, CSS, JavaScript, TypeScript) with creative tools and techniques like **animations, 3D graphics, interactive experiences, generative art, and immersive web design**.
+
+**My Focus**: Building beautiful, engaging, and interactive digital experiences that go beyond traditional websites.
 
 ---
 
-## 🗺️ My Creative Dev Roadmap
+## 🛠 Creative Dev Tech Stack
 
-```mermaid
-flowchart TD
-    A[Beginner Basics] --> B[Intermediate]
-    B --> C[Creative Dev Path]
-    C --> D[Advanced]
+### Core Foundations
+- **HTML5** – Semantic + Accessible
+- **CSS3** – Advanced animations, transitions, scroll effects
+- **JavaScript / TypeScript** – DOM, Canvas, WebGL
 
-    subgraph "The Beginning"
-        A1[HTML5 Semantic + Accessibility]
-        A2[CSS3 + Flexbox/Grid]
-        A3[JavaScript ES6+]
-        A4[DOM + Fetch API]
-    end
+### Creative & Motion Tools
+- GSAP (GreenSock)
+- Three.js
+- Spline
+- Framer Motion (once in React)
+- CSS Scroll-driven Animations
+- WebGL & Shader experiments
 
-    subgraph "Intermediate"
-        B1[Git & GitHub]
-        B2[Advanced CSS + Animations]
-        B3[GSAP / Animation Libraries]
-        B4[Tailwind CSS]
-        B5[Responsive Design]
-    end
+### Design & Prototyping
+- Figma
+- Blender (basics)
+- Tailwind CSS + custom designs
 
-    subgraph "Creative Dev"
-        C1[Three.js / WebGL]
-        C2[Spline]
-        C3[Framer Motion]
-        C4[Shaders & GLSL]
-        C5[UI Libraries + Component Systems]
-        C6[Generative Art + Canvas]
-    end
+### Currently Exploring
+- 3D interactions on the web
+- Generative art & particle systems
+- Interactive storytelling
+- Advanced UI/UX animations
 
-    subgraph "Advanced"
-        D1[TypeScript]
-        D2[React + TypeScript]
-        D3[Performance Optimization]
-        D4[Creative Coding Portfolio]
-        D5[Build My Own Library]
-    end
+---
 
-    classDef done fill:#22c55e,stroke:#fff,color:#fff
-    classDef current fill:#eab308,stroke:#fff,color:#000
-    classDef future fill:#64748b,stroke:#fff,color:#fff
+## 📂 Featured Creative Projects
 
-    %% Update these classes as you progress
-    class A1,A2,A3,A4 done
-    class B1,B2,B3,B4,B5 current
-    class C1,C2,C3,C4,C5,C6 future
-    class D1,D2,D3,D4,D5 future
+| Project | Description | Technologies | Live Demo | Status |
+|---------|-------------|--------------|-----------|--------|
+| **Interactive Portfolio** | Immersive personal site with scroll animations & 3D elements | HTML, CSS, GSAP, Three.js | [Live](your-link) | ✅ Completed |
+| **3D Product Configurator** | Interactive 3D model viewer with color/material options | Three.js / Spline | [Live](your-link) | In Progress |
+| **Generative Art Gallery** | Dynamic canvas-based artworks with user controls | Canvas API, JS | [Live](your-link) | ✅ Completed |
+| **Animated Landing Page** | Cinematic scroll experience for a fictional brand | GSAP, ScrollTrigger | [Live](your-link) | ✅ Completed |
+| **Particle System Explorer** | Interactive particle physics playground | Three.js / Canvas | [Live](your-link) | Planned |
+| **WebGL Shader Experiments** | Collection of creative shaders & effects | WebGL, GLSL | [Live](your-link) | Ongoing |
 
+---
 
-🛠 Tools & Technologies
+## 🗺️ Creative Dev Roadmap Progress
 
-Core: HTML5, CSS3, JavaScript (ES6+), TypeScript (upcoming)
-Motion: GSAP, CSS Animations, Scroll-driven Animations
-Creative: Three.js, WebGL, Canvas API, Shaders
-Design: Figma, Tailwind CSS, Spline
-Tools: Git, GitHub, Vercel, VS Code
+- [✅] **The Beginning** – HTML, CSS, JavaScript, Accessibility
+- [✅] **Intermediate** – Advanced CSS, GSAP, Animation Libraries
+- [🔄] **Creative Dev Path** – Three.js, Spline, UI Libraries, Shaders
+- [ ] TypeScript Integration
+- [ ] React + Framer Motion
+- [ ] Advanced 3D & WebGL
+- [ ] Build My Own Creative Library / Tools
 
+---
 
-🚀 How to Run Projects Locally
-Bashgit clone https://github.com/CharitySilah/your-repo-name.git
-cd your-repo-name
+## ✨ What Makes This Creative Dev Work
 
-# Open any project folder and double-click index.html
+- Heavy focus on **motion design** and micro-interactions
+- Beautiful typography and modern aesthetics
+- Performance-optimized animations
+- Mobile-friendly immersive experiences
+- Strong attention to detail and delight
 
-📸 Gallery / Screenshots
+---
 
+## 🚀 How to Explore
 
-🎯 Future Goals
+Most projects are static and can be opened directly:
 
-Master 3D web experiences
-Build a standout creative portfolio
-Experiment with AI + Generative Design
-Contribute to creative coding open source
-Create and share my own animation/UI library
+1. Clone the repo
+2. Navigate into any project folder
+3. Open `index.html` in your browser
 
-
-
-"Building websites that  come alive." ✨
+```bash
+git clone https://github.com/CharitySilah/your-creative-dev-repo.git
 
