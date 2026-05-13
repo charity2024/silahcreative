@@ -4,9 +4,7 @@ A path to Creative Development
 
 This repository showcases my journey as a **Creative Developer** — following the "Creative Dev" path on the Modern Programmer Roadmap.
 
-I combine strong technical foundations (HTML, CSS, JavaScript, TypeScript) with creative tools and techniques like **animations, 3D graphics, interactive experiences, generative art, and immersive web design**.
-
-**My Focus**: Building beautiful, engaging, and interactive digital experiences that go beyond traditional websites.
+**My Focus**: Building websites that come alive . Engaging, and interactive digital experiences that go beyond traditional websites.
 
 ---
 
@@ -37,25 +35,11 @@ I combine strong technical foundations (HTML, CSS, JavaScript, TypeScript) with 
 - Advanced UI/UX animations
 
 ---
-
-## 📂 Featured Creative Projects
-
-| Project | Description | Technologies | Live Demo | Status |
-|---------|-------------|--------------|-----------|--------|
-| **Interactive Portfolio** | Immersive personal site with scroll animations & 3D elements | HTML, CSS, GSAP, Three.js | [Live](your-link) | ✅ Completed |
-| **3D Product Configurator** | Interactive 3D model viewer with color/material options | Three.js / Spline | [Live](your-link) | In Progress |
-| **Generative Art Gallery** | Dynamic canvas-based artworks with user controls | Canvas API, JS | [Live](your-link) | ✅ Completed |
-| **Animated Landing Page** | Cinematic scroll experience for a fictional brand | GSAP, ScrollTrigger | [Live](your-link) | ✅ Completed |
-| **Particle System Explorer** | Interactive particle physics playground | Three.js / Canvas | [Live](your-link) | Planned |
-| **WebGL Shader Experiments** | Collection of creative shaders & effects | WebGL, GLSL | [Live](your-link) | Ongoing |
-
----
-
 ## 🗺️ Creative Dev Roadmap Progress
 
-- [✅] **The Beginning** – HTML, CSS, JavaScript, Accessibility
-- [✅] **Intermediate** – Advanced CSS, GSAP, Animation Libraries
-- [🔄] **Creative Dev Path** – Three.js, Spline, UI Libraries, Shaders
+- [ ] **The Beginning** – HTML, CSS, JavaScript, Accessibility
+- [ ] **Intermediate** – Advanced CSS, GSAP, Animation Libraries
+- [ ] **Creative Dev Path** – Three.js, Spline, UI Libraries, Shaders
 - [ ] TypeScript Integration
 - [ ] React + Framer Motion
 - [ ] Advanced 3D & WebGL
