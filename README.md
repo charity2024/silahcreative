@@ -1,9 +1,5 @@
 # SilahCreative
 A path to Creative Development
-# Creative Dev Journey 🚀✨
-
-![Banner](https://via.placeholder.com/1200x400?text=Creative+Developer+Journey) <!-- Replace with a nice banner -->
-
 ## About This Repository
 
 This repository showcases my journey as a **Creative Developer** — following the "Creative Dev" path on the Modern Programmer Roadmap.
