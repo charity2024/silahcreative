@@ -59,3 +59,35 @@ flowchart TD
     class B1,B2,B3,B4,B5 current
     class C1,C2,C3,C4,C5,C6 future
     class D1,D2,D3,D4,D5 future
+
+
+🛠 Tools & Technologies
+
+Core: HTML5, CSS3, JavaScript (ES6+), TypeScript (upcoming)
+Motion: GSAP, CSS Animations, Scroll-driven Animations
+Creative: Three.js, WebGL, Canvas API, Shaders
+Design: Figma, Tailwind CSS, Spline
+Tools: Git, GitHub, Vercel, VS Code
+
+
+🚀 How to Run Projects Locally
+Bashgit clone https://github.com/CharitySilah/your-repo-name.git
+cd your-repo-name
+
+# Open any project folder and double-click index.html
+
+📸 Gallery / Screenshots
+
+
+🎯 Future Goals
+
+Master 3D web experiences
+Build a standout creative portfolio
+Experiment with AI + Generative Design
+Contribute to creative coding open source
+Create and share my own animation/UI library
+
+
+
+"Building websites that  come alive." ✨
+
