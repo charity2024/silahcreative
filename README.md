@@ -1,7 +1,5 @@
 # SilahCreative
 A path to Creative Development
-# Creative Dev Journey 🚀✨
-
 ![Banner](https://via.placeholder.com/1200x400?text=Creative+Developer+Journey) <!-- Replace with your banner -->
 
 ## About This Repository
