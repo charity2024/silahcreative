@@ -2,7 +2,7 @@
 A path to Creative Development
 ## About This Repository
 
-This repository showcases my journey as a **Creative Developer** — following the "Creative Dev" path on the Modern Programmer Roadmap.
+This repository showcases my journey as a **Creative Developer** — following the "Creative Dev" path on the Modern Programmer Roadmap. https://miro.com/app/board/uXjVL9wlpnQ=/?share_link_id=115283197382
 <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/1eefe5f1-4f60-4d96-a681-1a2f55933eed" />
 
 
