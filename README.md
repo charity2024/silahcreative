@@ -1,6 +1,6 @@
 # SilahCreative
 A path to Creative Development
-![Banner](https://via.placeholder.com/1200x400?text=Creative+Developer+Journey) <!-- Replace with your banner -->
+<img width="700" height="700" alt="download (2)" src="https://github.com/user-attachments/assets/adbc7efb-b8c4-43b1-86fe-61864fbaeb4e" />
 
 ## About This Repository
 
