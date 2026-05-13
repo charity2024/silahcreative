@@ -66,5 +66,4 @@ Most projects are static and can be opened directly:
 3. Open `index.html` in your browser
 
 ```bash
-git clone https://github.com/CharitySilah/your-creative-dev-repo.git
 
