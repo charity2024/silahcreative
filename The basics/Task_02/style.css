@@ -1,0 +1,24 @@
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+  animation-name: example;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: backwards; 
+  animation-play-state: running;
+}
+
+
+@keyframes example{
+  from{
+    transform: translateY(0px) rotate(0deg);
+  }
+  to{
+    transform: translateY(-100px)  rotate(180deg);
+  }
+}
