@@ -10,55 +10,97 @@
   <link rel="stylesheet" href="">
   <style>
     body {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      min-height: 100vh;
-      margin: 0;
       overflow: hidden;
       background: #000;
     }
 
+    .section {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row;
+      height: 100vh;
+    }
+
     .box {
+      cursor: pointer;
+      opacity: 0;
+      border-radius: 15px;
+    }
+
+    .green {
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(#00ff00, #008000);
+    }
+
+    .purple {
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(#800080, #400040);
+    }
+
+    .orange {
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(#ffa500, #ff8c00);
+    }
+
+    .text {
+      position: fixed;
+      bottom: 2rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: azure;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .braces {
       display: block;
-      border-radius: 10px;
-    }
-
-    .box.green {
-      width: 100px;
-      height: 100px;
-      background: linear-gradient(45deg, #00ff00, #88ec88);  
-    }
-
-    .box.purple {
-      width: 100px;
-      height: 100px;
-      background: linear-gradient(45deg, #800080, #d8bfd8);  
     }
   </style>
 </head>
 
 <body>
-  <div class="box green"></div>
-  <div class="box purple"></div>
+  <div class="section">
+    <div class="box green"></div>
+    <div class="box purple"></div>
+    <div class="box orange"></div>
+    <div class="box purple"></div>
+    <div class="box green"></div>
+  </div>
+  <div class="text">
+    <h4 class="braces">click a box to stagger out</h4>
+  </div>
 
   <script type="module">
     import { gsap } from "https://cdn.skypack.dev/gsap";
-    gsap.to(".green", {
+    gsap.to(".box", {
+      duration: 1,
       rotation: 360,
-      duration: 2,
-      repeat: -1,
-      ease: "power1.in",
-      yoyo: true,
+      opacity: 1,
+      delay: 0.5,
+      stagger: {
+        ease:"none",
+      }, 
     });
 
-
-    gsap.to(".purple", {
-      rotation: 360,
-      duration: 2,
-      ease: "power1.inOut",
-      yoyo: true,
-      repeat: -1,
+    document.querySelectorAll(".box").forEach((box, index) => {
+      box.addEventListener("click", () => {
+        gsap.to(".box", {
+          duration: 0.5,
+          opacity: 0,
+          y: -100,
+          stagger: {
+            from: index, // stagger in from the clicked element's index
+            amount: 1 // spread the entire stagger out over 1 second
+          },
+          ease: "back.in",
+          overwrite: "auto"
+        });
+      });
     });
   </script>
 
