@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Academy | Discover the Universe Within</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+
+      <section class="hero" id="hero-trigger">
+        <div class="hero-content">
+          <h1 class="hero-title reveal-text">Discover the <br><span class="gradient-text">Universe Within</span></h1>
+          <p class="hero-subtitle">Interactive astronomy adventures with real science.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary">Begin Your First Mission</button>
+          </div>
+        </div>
+
+        <div class="parallax-element planet-main">
+          <img src="./assets/astronaunt.jpg" alt="Planet">
+        </div>
+      </section>
+
+      <section class="horizontal-section" id="missions-pin">
+        <div class="horizontal-wrapper">
+          <div class="mission-slide">
+            <div class="mission-card-premium">
+              <span>01</span>
+              <h3>Journey to Mars</h3>
+            </div>
+          </div>
+          <div class="mission-slide">
+            <div class="mission-card-premium">
+              <span>02</span>
+              <h3>Secrets of Black Holes</h3>
+            </div>
+          </div>
+          <div class="mission-slide">
+            <div class="mission-card-premium">
+              <span>03</span>
+              <h3>The Living Sun</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <script>
+    import { gsap } from "https://cdn.skypack.dev/gsap";
+    gsap.registerPlugin(ScrollTrigger);
+
+    // 1. Hero Entrance Animation
+    const tl = gsap.timeline({ defaults: { ease: "power4.out" } });
+
+    tl.from(".navbar", { y: -100, opacity: 0, duration: 1.2 })
+      .from(".hero-title", { x: -100, opacity: 0, duration: 1 }, "-=0.8")
+      .from(".hero-subtitle", { y: 30, opacity: 0, duration: 1 }, "-=0.6")
+      .from(".hero-actions", { y: 30, opacity: 0, duration: 1 }, "-=0.6")
+      .from(".planet-container", { scale: 0.8, opacity: 0, duration: 1.5 }, "-=1");
+
+    // 2. Navbar Scroll Effect
+    window.addEventListener("scroll", () => {
+      const nav = document.querySelector(".navbar");
+      if (window.scrollY > 50) {
+        nav.classList.add("scrolled");
+      } else {
+        nav.classList.remove("scrolled");
+      }
+    });
+
+    // 3. Scroll Triggered Mission Cards
+    gsap.from(".mission-card", {
+      scrollTrigger: {
+        trigger: ".missions",
+        start: "top 80%",
+      },
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      stagger: 0.2
+    });
+
+    // 4. Parallax Effect on Nebula
+    gsap.to(".nebula", {
+      scrollTrigger: {
+        scrub: 1
+      },
+      y: 200,
+      x: -100
+    });
+  </script>
+
+</body>
+
+</html>

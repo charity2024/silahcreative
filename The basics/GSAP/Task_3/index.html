@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clone GSAP</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #faf4ec;
+      font-family: sans-serif;
+
+    }
+
+    header {
+      width: 100px;
+      height: 100px;
+      background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZHNjYXBlJTIwZGF5fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60');
+      background-size: cover;
+    }
+
+    span {
+      display: block;
+      font-size: 4rem;
+      color: #00744a;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="" alt="">
+  </header>
+  <main>
+    <h1 class="title">
+      <span>The Ultimate Animations Course:</span> from basic motion to Awwwards featured
+    </h1>
+    <p> Master scroll animations, text reveals, and interactive effects that make websites unforgettable, even if you've
+      never written a single line of animation code.</p>
+  </main>
+  <button>Enroll now</button>
+  <button>View Full Curriculum</button>
+
+
+  <script>
+    import { gsap } from "https://cdn.skypack.dev/gsap@3.12.2";
+    gsap.fromTo('.title', {
+      x: -200,
+      y: 200,
+      duration: 1, // seconds
+      delay: 0.5,
+      ease: "power2.inOut",
+      stagger: 0.1,
+    })
+
+
+  </script>
+
+
+
+
+</body>
+
+</html>
